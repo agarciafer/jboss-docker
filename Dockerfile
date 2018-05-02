@@ -4,7 +4,7 @@
 FROM centos 
 
 # file author / maintainer
-MAINTAINER "Alberto G." "tarana013@gmail.com"
+MAINTAINER "Alberto G." "tartana013@gmail.com"
 
 # update OS
 RUN yum -y update && \
