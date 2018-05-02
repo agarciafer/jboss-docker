@@ -3,3 +3,8 @@ Esto es un laboratorio para instalar Jboss 6.4 a traves de Docker, con un canten
 Faltan subir los archivos de Jboss configurados
 Añadimos los ficheros:
 
+standalone.xml--> Esta configurado con el driver de mysql
+mysql-connector-java-5.1.27-bin.jar--> Driver de mysql para instalarlo en el servidor de Aplicaciones Jboss EAP 6.4
+module.xml--> Modulo para base de datos mysql configurado para Jboss EAP 6.4
+
+
