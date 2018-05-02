@@ -1,4 +1,4 @@
-# dockerfile to build image for JBoss EAP 6.4 personalizada para la instalacion de la aplicacion SGAJBoss
+# dockerfile to build image for JBoss EAP 6.4 personalizada para la instalacion de la aplicacion SGAJBoss en docker 1.13
 
 # start from rhel 7.2
 FROM centos 
