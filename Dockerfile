@@ -21,7 +21,7 @@ ENV JBOSS_HOME /opt/jboss-eap-6.4
 COPY hello.war /opt/jboss-eap-6.4/standalone/deployments
 
 ### Create EAP User
-RUN $JBOSS_HOME/bin/add-user.sh admin Pelicano,013 --silent
+RUN $JBOSS_HOME/bin/add-user.sh admin password --silent
 
 # Install mysql module
 ADD module.xml /opt/jboss-eap-6.4/modules/com/mysql/main/module.xml
